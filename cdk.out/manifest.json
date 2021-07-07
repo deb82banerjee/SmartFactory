@@ -1,0 +1,590 @@
+{
+  "version": "12.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "SmartFactoryStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://330255137460/us-east-2",
+      "properties": {
+        "templateFile": "SmartFactoryStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/SmartFactoryStack/Pipeline/Pipeline/ArtifactsBucketEncryptionKey/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineArtifactsBucketEncryptionKeyF5BF0670",
+            "trace": [
+              "new Key (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-kms\\lib\\key.ts:401:22)",
+              "new Pipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:233:25)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:87:24)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/ArtifactsBucketEncryptionKeyAlias/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineArtifactsBucketEncryptionKeyAlias94A07392",
+            "trace": [
+              "new Alias (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-kms\\lib\\alias.ts:143:22)",
+              "new Pipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:239:9)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:87:24)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/ArtifactsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineArtifactsBucketAEA9A052",
+            "trace": [
+              "new Bucket (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:713:22)",
+              "new Pipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:246:21)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:87:24)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineRoleB27FAA37",
+            "trace": [
+              "new Role (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new Pipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:257:31)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:87:24)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineRoleDefaultPolicy7BDC1ABB",
+            "trace": [
+              "new Policy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Function.addToPrincipal (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:92:61)",
+              "Function.addToPrincipalOrResource (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:48:26)",
+              "Bucket.grant (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:383:27)",
+              "Bucket.grantReadWrite (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:313:17)",
+              "new Pipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:273:25)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:87:24)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Pipeline9850B417",
+            "trace": [
+              "new Pipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:261:26)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:87:24)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Source/GitHub/WebhookResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineSourceGitHubWebhookResource6A219987",
+            "trace": [
+              "GitHubSourceAction.bound (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\github\\source-action.ts:89:7)",
+              "GitHubSourceAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "RichAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:362:37)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:106:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineBuildSynthCodePipelineActionRole4E7A6C97",
+            "trace": [
+              "new Role (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "Pipeline.getRoleForAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:522:20)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:356:29)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:113:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineBuildSynthCodePipelineActionRoleDefaultPolicy92C90290",
+            "trace": [
+              "new Policy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Role.addToPolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:244:17)",
+              "CodeBuildAction.bound (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\codebuild\\build-action.ts:87:18)",
+              "CodeBuildAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "SimpleSynthAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\synths\\simple-synth-action.ts:267:25)",
+              "RichAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:362:37)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:113:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Build/Synth/CdkBuildProject/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineBuildSynthCdkBuildProjectRole231EEA2A",
+            "trace": [
+              "new Role (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new Project (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:629:31)",
+              "new PipelineProject (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "SimpleSynthAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\synths\\simple-synth-action.ts:233:21)",
+              "RichAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:362:37)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:113:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Build/Synth/CdkBuildProject/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineBuildSynthCdkBuildProjectRoleDefaultPolicyFB6C941C",
+            "trace": [
+              "new Policy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "PipelineProject.addToRolePolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:158:17)",
+              "new Project (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:728:10)",
+              "new PipelineProject (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "SimpleSynthAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\synths\\simple-synth-action.ts:233:21)",
+              "RichAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:362:37)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:113:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/Build/Synth/CdkBuildProject/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineBuildSynthCdkBuildProject6BEFA8E6",
+            "trace": [
+              "new Project (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:682:22)",
+              "new PipelineProject (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "SimpleSynthAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\synths\\simple-synth-action.ts:233:21)",
+              "RichAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:362:37)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:113:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/UpdatePipeline/SelfMutate/CodePipelineActionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineUpdatePipelineSelfMutateCodePipelineActionRoleD6D4E5CF",
+            "trace": [
+              "new Role (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "Pipeline.getRoleForAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:522:20)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:356:29)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:120:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/Pipeline/UpdatePipeline/SelfMutate/CodePipelineActionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineUpdatePipelineSelfMutateCodePipelineActionRoleDefaultPolicyE626265B",
+            "trace": [
+              "new Policy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Role.addToPolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:244:17)",
+              "CodeBuildAction.bound (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\codebuild\\build-action.ts:87:18)",
+              "CodeBuildAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "UpdatePipelineAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\actions\\update-pipeline-action.ts:100:24)",
+              "RichAction.bind (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:362:37)",
+              "Stage.attachActionToPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:141:27)",
+              "Stage.addAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:91:29)",
+              "new Stage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:38:12)",
+              "Pipeline.addStage (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:303:19)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:120:22)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/UpdatePipeline/SelfMutation/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineUpdatePipelineSelfMutationRole57E559E8",
+            "trace": [
+              "new Role (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new Project (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:629:31)",
+              "new PipelineProject (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "new UpdatePipelineAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\actions\\update-pipeline-action.ts:45:33)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:122:19)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/UpdatePipeline/SelfMutation/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineUpdatePipelineSelfMutationRoleDefaultPolicyA225DA4E",
+            "trace": [
+              "new Policy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "PipelineProject.addToRolePolicy (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:158:17)",
+              "new Project (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:728:10)",
+              "new PipelineProject (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "new UpdatePipelineAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\actions\\update-pipeline-action.ts:45:33)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:122:19)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/Pipeline/UpdatePipeline/SelfMutation/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineUpdatePipelineSelfMutationDAA41400",
+            "trace": [
+              "new Project (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:682:22)",
+              "new PipelineProject (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "new UpdatePipelineAction (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\actions\\update-pipeline-action.ts:45:33)",
+              "new CdkPipeline (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\pipelines\\lib\\pipeline.ts:122:19)",
+              "new SmartFactoryStack (D:\\aws-cdk\\smart-factory\\lib\\smart-factory-stack.ts:15:22)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\bin\\smart-factory.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/SmartFactoryStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:22:24)",
+              "D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:94:23)",
+              "process.<anonymous> (D:\\aws-cdk\\smart-factory\\node_modules\\@aws-cdk\\core\\lib\\app.ts:64:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:483:12)",
+              "process.emit (D:\\aws-cdk\\smart-factory\\node_modules\\source-map-support\\source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "SmartFactoryStack"
+    }
+  }
+}
