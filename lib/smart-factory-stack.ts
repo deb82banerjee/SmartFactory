@@ -2,7 +2,7 @@ import * as codepipeline from '@aws-cdk/aws-codepipeline';
 import * as codepipeline_actions from '@aws-cdk/aws-codepipeline-actions';
 import { Construct, SecretValue, Stack, StackProps } from '@aws-cdk/core';
 import { CdkPipeline, SimpleSynthAction } from "@aws-cdk/pipelines";
-//import { CdkpipelinesDemoStage} from './cdkpipelines-demo-stage';
+import { ServiceCatalogStack} from './service-catalog-stack';
 import { ShellScriptAction } from '@aws-cdk/pipelines';
 
 export class SmartFactoryStack extends Stack {
@@ -36,5 +36,6 @@ export class SmartFactoryStack extends Stack {
       buildCommand: 'npm run build'
     }),
  });
+ pipeline.addApplicationStage(new ServiceCatalogStack(this, 'MyServiceCatalog'));
   }
 }
